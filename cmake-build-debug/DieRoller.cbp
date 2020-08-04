@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Projects/DieRoller/Roller.cpp">
+			<Option target="DieRoller"/>
+		</Unit>
+		<Unit filename="C:/Projects/DieRoller/Roller.h">
+			<Option target="DieRoller"/>
+		</Unit>
 		<Unit filename="C:/Projects/DieRoller/main.cpp">
 			<Option target="DieRoller"/>
 		</Unit>

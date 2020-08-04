@@ -142,6 +142,33 @@ DieRoller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DieRoller.dir\build.make CMakeFiles/DieRoller.dir/build
 .PHONY : DieRoller/fast
 
+Roller.obj: Roller.cpp.obj
+
+.PHONY : Roller.obj
+
+# target to build an object file
+Roller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DieRoller.dir\build.make CMakeFiles/DieRoller.dir/Roller.cpp.obj
+.PHONY : Roller.cpp.obj
+
+Roller.i: Roller.cpp.i
+
+.PHONY : Roller.i
+
+# target to preprocess a source file
+Roller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DieRoller.dir\build.make CMakeFiles/DieRoller.dir/Roller.cpp.i
+.PHONY : Roller.cpp.i
+
+Roller.s: Roller.cpp.s
+
+.PHONY : Roller.s
+
+# target to generate assembly for a file
+Roller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DieRoller.dir\build.make CMakeFiles/DieRoller.dir/Roller.cpp.s
+.PHONY : Roller.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DieRoller
+	@echo ... Roller.obj
+	@echo ... Roller.i
+	@echo ... Roller.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

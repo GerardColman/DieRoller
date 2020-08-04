@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Projects/DieRoller/Roller.cpp" "C:/Projects/DieRoller/cmake-build-debug/CMakeFiles/DieRoller.dir/Roller.cpp.obj"
   "C:/Projects/DieRoller/main.cpp" "C:/Projects/DieRoller/cmake-build-debug/CMakeFiles/DieRoller.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

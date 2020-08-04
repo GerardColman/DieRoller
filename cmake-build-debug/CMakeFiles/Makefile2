@@ -93,12 +93,12 @@ clean: CMakeFiles/DieRoller.dir/clean
 CMakeFiles/DieRoller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DieRoller.dir\build.make CMakeFiles/DieRoller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DieRoller.dir\build.make CMakeFiles/DieRoller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target DieRoller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target DieRoller"
 .PHONY : CMakeFiles/DieRoller.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DieRoller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\DieRoller\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\DieRoller\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DieRoller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\DieRoller\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DieRoller.dir/rule
