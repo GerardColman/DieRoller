@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\DieRoller.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\DieRoller.dir/objects.a @CMakeFiles\DieRoller.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\DieRoller.dir/objects.a -Wl,--no-whole-archive  -o DieRoller.exe -Wl,--out-implib,libDieRoller.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DieRoller.dir\linklibs.rsp
