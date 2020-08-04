@@ -1,6 +1,9 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+using namespace std;
+
+class Roller{
+    int main(int argc, char* argv[]){
+
+    }
+};
