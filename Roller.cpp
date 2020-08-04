@@ -3,3 +3,6 @@
 //
 
 #include "Roller.h"
+int Roll(int DiceNum, int DiceType){
+
+};
