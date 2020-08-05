@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Projects\DieRoller
+CMAKE_SOURCE_DIR = D:\Projects\DieRoller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Projects\DieRoller\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\DieRoller\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DieRoller.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/DieRoller.dir/flags.make
 
 CMakeFiles/DieRoller.dir/main.cpp.obj: CMakeFiles/DieRoller.dir/flags.make
 CMakeFiles/DieRoller.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DieRoller.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DieRoller.dir\main.cpp.obj -c C:\Projects\DieRoller\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DieRoller.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DieRoller.dir\main.cpp.obj -c D:\Projects\DieRoller\main.cpp
 
 CMakeFiles/DieRoller.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DieRoller.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Projects\DieRoller\main.cpp > CMakeFiles\DieRoller.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\DieRoller\main.cpp > CMakeFiles\DieRoller.dir\main.cpp.i
 
 CMakeFiles/DieRoller.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DieRoller.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Projects\DieRoller\main.cpp -o CMakeFiles\DieRoller.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\DieRoller\main.cpp -o CMakeFiles\DieRoller.dir\main.cpp.s
 
 CMakeFiles/DieRoller.dir/Roller.cpp.obj: CMakeFiles/DieRoller.dir/flags.make
 CMakeFiles/DieRoller.dir/Roller.cpp.obj: ../Roller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DieRoller.dir/Roller.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DieRoller.dir\Roller.cpp.obj -c C:\Projects\DieRoller\Roller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DieRoller.dir/Roller.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DieRoller.dir\Roller.cpp.obj -c D:\Projects\DieRoller\Roller.cpp
 
 CMakeFiles/DieRoller.dir/Roller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DieRoller.dir/Roller.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Projects\DieRoller\Roller.cpp > CMakeFiles\DieRoller.dir\Roller.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\DieRoller\Roller.cpp > CMakeFiles\DieRoller.dir\Roller.cpp.i
 
 CMakeFiles/DieRoller.dir/Roller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DieRoller.dir/Roller.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Projects\DieRoller\Roller.cpp -o CMakeFiles\DieRoller.dir\Roller.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\DieRoller\Roller.cpp -o CMakeFiles\DieRoller.dir\Roller.cpp.s
 
 # Object files for target DieRoller
 DieRoller_OBJECTS = \
@@ -116,7 +116,7 @@ DieRoller.exe: CMakeFiles/DieRoller.dir/build.make
 DieRoller.exe: CMakeFiles/DieRoller.dir/linklibs.rsp
 DieRoller.exe: CMakeFiles/DieRoller.dir/objects1.rsp
 DieRoller.exe: CMakeFiles/DieRoller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DieRoller.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\DieRoller\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DieRoller.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DieRoller.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/DieRoller.dir/clean:
 .PHONY : CMakeFiles/DieRoller.dir/clean
 
 CMakeFiles/DieRoller.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Projects\DieRoller C:\Projects\DieRoller C:\Projects\DieRoller\cmake-build-debug C:\Projects\DieRoller\cmake-build-debug C:\Projects\DieRoller\cmake-build-debug\CMakeFiles\DieRoller.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\DieRoller D:\Projects\DieRoller D:\Projects\DieRoller\cmake-build-debug D:\Projects\DieRoller\cmake-build-debug D:\Projects\DieRoller\cmake-build-debug\CMakeFiles\DieRoller.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DieRoller.dir/depend
 

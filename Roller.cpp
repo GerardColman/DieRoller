@@ -3,6 +3,13 @@
 //
 
 #include "Roller.h"
-int Roll(int DiceNum, int DiceType){
+#include <cstdlib>
+#include <ctime>
 
+/*
+ *  1. function the generates a random number
+ */
+int Roller::Roll(int DiceType){
+    srand((unsigned)time(nullptr));
+    return (rand() % DiceType) + 1;
 };
