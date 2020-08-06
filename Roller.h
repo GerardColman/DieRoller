@@ -1,1 +1,6 @@
-int Roll(int DiceType);
+
+class Roller{
+    public:
+        int Roll(int DiceType);
+        Roller();
+};
