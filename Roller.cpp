@@ -9,7 +9,7 @@
 /*
  *  1. function the generates a random number
  */
-int Roller::Roll(int DiceType){
-    srand((unsigned)time(nullptr));
+int Roll(int DiceType){
+    srand((unsigned)time(0));
     return (rand() % DiceType) + 1;
 };
